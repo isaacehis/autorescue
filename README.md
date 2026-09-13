@@ -64,9 +64,20 @@ Clone the repository and install dependencies:
 ```bash
 npm install
 npm run dev
-Then open: http://localhost:3000
+```
+Then open:
 
-## Code guide
+```text
+http://localhost:3000
+```
+
+Create a `.env.local` file using `.env.example` as a guide.
+
+Never commit real API keys, credentials, or environment secrets.
+
+---
+
+## 📂 Code Guide
 - `app/page.tsx`: homepage sections.
 - `app/components/Hero.tsx`: Roadside / Rescue / Anytime messaging.
 - `app/components/PhoneMockup.tsx`: interactive sample journey, not live dispatch.
