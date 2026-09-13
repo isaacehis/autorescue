@@ -1,16 +1,70 @@
-# AutoRescue
+# 🚗 AutoRescue
 
-Next.js, React, TypeScript, Tailwind CSS, and Framer Motion roadside assistance application.
-Open this folder in VS Code: `C:\Projects\AutoRescue`.
+### Roadside Assistance Platform
 
-## Run and check
-```sh
-npm ci
+AutoRescue is a modern roadside-assistance web application designed to help motorists request assistance and connect with nearby mechanics when experiencing a vehicle breakdown.
+
+The project focuses on a responsive user experience, secure authentication, service requests, driver profiles, vehicle management, and a structured roadside-assistance booking flow.
+
+🌐 **Live Demo:** https://autorescue-three.vercel.app
+
+---
+
+## ✨ Features
+
+- Secure user authentication
+- Roadside assistance booking flow
+- Service selection and vehicle information
+- User profile and account settings
+- Saved vehicle management
+- Request history and request details
+- Responsive mobile and desktop interface
+- Interactive homepage experience
+- Server-side request validation
+- Rate limiting
+- Supabase authentication and data integration
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Supabase**
+- **Vercel**
+- **Git & GitHub**
+
+---
+
+## 🚧 Project Status
+
+AutoRescue is currently under active development.
+
+Core user flows, authentication, profile management, vehicle management, and roadside-assistance request functionality are being developed and tested.
+
+Planned improvements include:
+
+- Live location and GPS integration
+- Mechanic matching and dispatch
+- Real-time request tracking
+- Payment integration
+- Notifications
+- Mechanic/service-provider dashboard
+- Additional security and production testing
+
+---
+
+## 💻 Run Locally
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
 npm run dev
-npm run lint
-npm run build
-```
-Visit http://localhost:3000. Copy .env.example to .env.local only for a new environment; do not overwrite existing values.
+Then open: http://localhost:3000
 
 ## Code guide
 - `app/page.tsx`: homepage sections.
