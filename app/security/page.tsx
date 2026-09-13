@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import Breadcrumbs from "../components/Breadcrumbs";
+import { SUPPORT_EMAIL } from "@/lib/site";
+export const metadata: Metadata = { title: "Account safety", description: "Keep your AutoRescue account safe and report a security concern.", alternates: { canonical: "/security" } };
+export default function SecurityPage() {
+  return <main id="main-content" className="page-shell"><section className="mx-auto max-w-3xl"><Breadcrumbs items={[{label:"Account safety"}]} /><h1 className="text-4xl font-bold">Keep your account safe.</h1><div className="mt-10 space-y-8 leading-8 text-gray-300"><section><h2 className="text-xl font-semibold text-white">Use a unique password</h2><p>Choose a password you do not use on other websites. Never share your password or email confirmation links with anyone.</p></section><section><h2 className="text-xl font-semibold text-white">Protect your payment details</h2><p>Our inquiry and booking forms do not ask for a bank PIN, card number, or one-time banking code. Do not include these in a message.</p></section><section><h2 className="text-xl font-semibold text-white">Report something unusual</h2><p>If you suspect someone has accessed your account, reset your password and contact us. For a security report, describe what you noticed without sending passwords or other people’s information.</p><a href={`mailto:${SUPPORT_EMAIL}?subject=Security%20report`} className="mt-5 inline-block break-all text-orange-300 underline">{SUPPORT_EMAIL}</a></section></div></section></main>;
+}

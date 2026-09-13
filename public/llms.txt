@@ -1,0 +1,17 @@
+# AutoRescue
+
+Roadside assistance requests for battery, tyre, towing, diagnostics, fuel, and key issues.
+
+## Pages
+- [Home](/)
+- [Request help](/booking)
+- [Services](/services)
+- [Mechanic partnerships](/mechanics)
+- [Roadside guide](/case-studies)
+- [About](/about)
+- [Contact](/contact)
+- [Privacy](/privacy)
+- [Account safety](/security)
+
+Contact support to confirm coverage, cost, and arrival timing.
+The animated phone is a sample app journey, not a live dispatch feed.
