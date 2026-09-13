@@ -331,8 +331,8 @@ main.pt-32 { padding-top: 48px; }
     transform: translateY(4px);
   }
   .hero-device {
-    max-height: 640px;
-    overflow: hidden;
+    max-height: none;
+    overflow: visible;
   }
   .hero-device .phone-frame {
     width: min(86vw, 300px);

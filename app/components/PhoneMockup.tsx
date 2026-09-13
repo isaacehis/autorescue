@@ -38,12 +38,12 @@ export default function PhoneMockup() {
       <motion.div
         animate={reducedMotion ? { y: 0, rotate: 0 } : { y: [-5, 5, -5], rotate: [-0.5, 0.5, -0.5] }}
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-        className="relative w-full max-w-[360px] rounded-[58px] border-[8px] border-neutral-700 bg-black p-[10px] shadow-[0_42px_120px_rgba(0,0,0,.7)]"
+        className="relative w-full max-w-[300px] rounded-[46px] border-[6px] border-neutral-700 bg-black p-[8px] shadow-[0_42px_120px_rgba(0,0,0,.7)] sm:max-w-[360px] sm:rounded-[58px] sm:border-[8px] sm:p-[10px]"
       >
-        <div className="relative h-full overflow-hidden rounded-[46px] border border-white/10 bg-[#101010]">
-          <div className="absolute left-1/2 top-5 z-50 h-10 w-40 -translate-x-1/2 rounded-full border border-neutral-800 bg-black shadow-xl" />
+        <div className="relative h-full overflow-hidden rounded-[34px] border border-white/10 bg-[#101010] sm:rounded-[46px]">
+          <div className="absolute left-1/2 top-4 z-50 h-8 w-32 -translate-x-1/2 rounded-full border border-neutral-800 bg-black shadow-xl sm:top-5 sm:h-10 sm:w-40" />
 
-          <div className="relative h-[330px] overflow-hidden bg-[radial-gradient(circle_at_25%_20%,rgba(249,115,22,.22),transparent_32%),linear-gradient(135deg,#171717,#262626_45%,#111)]">
+          <div className="relative h-[250px] overflow-hidden bg-[radial-gradient(circle_at_25%_20%,rgba(249,115,22,.22),transparent_32%),linear-gradient(135deg,#171717,#262626_45%,#111)] sm:h-[330px]">
             <div className="absolute left-14 top-0 h-full w-[2px] rotate-6 bg-white/10" />
             <div className="absolute left-40 top-0 h-full w-[2px] -rotate-12 bg-white/10" />
             <div className="absolute right-14 top-0 h-full w-[2px] rotate-12 bg-white/10" />
@@ -136,14 +136,14 @@ export default function PhoneMockup() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 bg-[linear-gradient(180deg,#121212,#0a0a0a)] p-5">
+          <div className="flex flex-col gap-3 bg-[linear-gradient(180deg,#121212,#0a0a0a)] p-4 sm:gap-4 sm:p-5">
             <div>
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.28em] text-orange-500">
                     Live tracking
                   </p>
-                  <h2 className="mt-3 text-3xl font-black text-white">
+                  <h2 className="mt-2 text-2xl font-black text-white sm:mt-3 sm:text-3xl">
                     AutoRescue
                   </h2>
                 </div>
@@ -154,7 +154,7 @@ export default function PhoneMockup() {
                 </div>
               </div>
 
-              <p className="mt-3 text-sm leading-6 text-gray-400">
+              <p className="mt-2 text-sm leading-6 text-gray-400 sm:mt-3">
                 Stay calm. Your verified mechanic is moving toward your
                 location with live arrival updates.
               </p>
